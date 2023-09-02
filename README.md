@@ -1,12 +1,10 @@
 # zkSync-Bridger
 
  [My Profile](https://github.com/ryu666zaki/) | [My projects](https://github.com/ryu666zaki?tab=repositories) |
-  🍩**Donate**: `0x27512edc51cAd8a5277090183858677915CC95c4`
 
 ![](/assets/images/zksync.png)
 
 ### <sub>Simple Script for bridge ETH from Mainet to zkSync Era when gas price is low.</sub>
-
 ### <sup>***❗You need to have Python 3.10+ installed❗***</sup>
 
   1. Replenish your wallets in the **ERC20** network with the amounts you need for the bridge + ETH reserve for the transaction ~ $6

@@ -26,5 +26,3 @@ pip install web3
   5. Now you're ready to start:
   ```
   python main.py
-  ```
- 🍩**Donate**: `0x27512edc51cAd8a5277090183858677915CC95c4`

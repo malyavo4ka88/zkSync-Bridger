@@ -42,11 +42,6 @@ async def interact_with_contract(wallet_address, private_key):
     signed_transaction = w3.eth.account.sign_transaction(transaction_data, private_key)
     txn = w3.eth.send_raw_transaction(signed_transaction.rawTransaction)
     print(f"***** Transaction: https://etherscan.io/tx/{txn} *****")
-
-async def main2():
-    for KEY in PRIVATE_KEYS:
-        account = w3.eth.account.from_key(KEY)
-        accounts[account] = wallet_address
       
 async def main():
     accounts = {}
